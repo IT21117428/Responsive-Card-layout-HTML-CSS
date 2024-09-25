@@ -50,12 +50,18 @@
   .clearfix { display: block; }
   /* close commented backslash hack */
 
-  .wrapper{
+  #wrapper{
     background-color: #69cf69;
     padding: 20px;
   }
 
-  .inner{
+  #inner{
     background-color: white;
     border-radius: 5px;
+  }
+
+  .box{
+    width: 33.33%;
+    float: left;
+    background-color: #ccc;
   }
