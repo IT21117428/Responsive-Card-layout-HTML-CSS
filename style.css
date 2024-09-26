@@ -50,9 +50,15 @@
   .clearfix { display: block; }
   /* close commented backslash hack */
 
+  *{
+    font-family: Arial;
+  }
+
   #wrapper{
     background-color: #69cf69;
     padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
   }
 
   #inner{
@@ -63,5 +69,39 @@
   .box{
     width: 33.33%;
     float: left;
-    background-color: #ccc;
   }
+  .cont{
+    background-color: #ebebeb;
+    margin: 16px;
+    padding: 30px;
+    border-radius: 5px;
+    transition: box-shadow 1s;
+  }
+
+  .cont:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  }
+
+.heading{
+  font-size: 17px;
+  min-height: 30px;
+}
+
+.para{
+  color: #8d8b8b;
+  font-size: 13px;
+  min-height: 200px;
+}
+
+.links{
+  color: #4e4ec5;
+  cursor: pointer;
+}
+
+.links:hover{
+  color: #42429f;
+}
+
+img{
+  margin-bottom: 13px;
+}
